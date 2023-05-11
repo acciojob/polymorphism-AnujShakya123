@@ -1,13 +1,15 @@
 package com.driver;
 
 public class Product {
-    public int multiply(int x, int y) {
-        int prod1 = x * y;
-        return prod1;
+    public int product(int x, int y) {
+        return x * y;
     }
 
-    public double multiply(double x, double y, double z) {
-        double prod2 = x * y * z;
-        return prod2;
+    public int product(int x, int y, int z) {
+        return x * y * z;
+    }
+
+    public double product(double x, double y) {
+        return x * y;
     }
 }
