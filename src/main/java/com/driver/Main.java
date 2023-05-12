@@ -1,6 +1,24 @@
 package com.driver;
 
-public class Main {
+    public class Main {
+        // Task 1: create a class Product inside Main class
+        public static class Product {
+
+            // Task 3: create a method public int product(int x, int y)
+            public int product(int x, int y) {
+                return x * y;
+            }
+
+            // Task 4: create an overloaded method public int product(int x, int y, int z)
+            public int product(int x, int y, int z) {
+                return x * y * z;
+            }
+
+            // Task 5: create an overloaded method public double product(double x, double y)
+            public double product(double x, double y) {
+                return x * y;
+            }
+        }
     public static void main(String[] args){
         Product p = new Product();
         int productXY = p.product(10, 20);
